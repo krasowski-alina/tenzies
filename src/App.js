@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Die from './Die';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <div className="dice-container">
+        <Die value={1}/>
+        <Die value={2}/>
+        <Die value={3}/>
+        <Die value={4}/>
+        <Die value={5}/>
+        <Die value={6}/>
+        <Die value={7}/>
+        <Die value={8}/>
+        <Die value={9}/>
+        <Die value={10}/>
+      </div>
+    </main>
   );
 }
 
