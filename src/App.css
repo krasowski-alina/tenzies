@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   background-color: #0B2434;
@@ -11,6 +10,7 @@ main {
   background-color: #F5F5F5;
   height: 400px;
   max-width: 800px;
+  margin: 0 auto;
   border-radius: 5px;
   padding: 20px;
   display: flex;
@@ -18,13 +18,11 @@ main {
   justify-content: space-between;
   align-items: center;
 }
-
 .dice-container {
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
   gap: 20px;
 }
-
 .die-face {
   height: 50px;
   width: 50px;
@@ -36,34 +34,43 @@ main {
   cursor: pointer;
   background-color: white;
 }
-
+.die-num, .title {
+  color: #D24E5C;
+}
 .die-num {
   font-size: 2rem;
 }
-  .roll-dice {
-    height: 50px;
-    width: 100px;
-    border: none;
-    border-radius: 6px;
-    background-color: #5035FF;
-    color: white;
-    font-size: 1.2rem;
-    font-family: 'Karla', sans-serif;
-    font-weight: 700;
+.roll-dice {
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(123deg, rgba(138,197,220,1) 50%, rgba(241,108,122,1) 90%);
+  color: white;
+  font-size: 1.4rem;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+  text-shadow: .5px .5px .5px black;
 }
 .roll-dice:focus {
-    outline: none;
+  outline: none;
 }
 .roll-dice:active {
-    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 .title {
   font-size: 40px;
   margin: 0;
+  text-shadow: 1px 1px 1px black;
 }
-
+.diceImage {
+  height: 50px;
+  padding: 5px;
+}
 .instructions {
   font-family: 'Inter', sans-serif;
+  font-size: 22px;
   font-weight: 400;
   margin-top: 0;
   text-align: center;
