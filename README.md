@@ -1,5 +1,5 @@
 # Tenzies
-• Famous game in which a user rolls dice until they display the same numbers and freezes a dice when needed.<br>
+• Famous game in which a user rolls dice until they display the same number of dots  and freezes a dice when needed.<br>
 • Optimized interface by changing the color of the frozen dice. <br>
 • Enhanced user experience by adding Confetti from React-Confetti library.<br>
 • Project built with UI/UX and responsive design principles <br>
