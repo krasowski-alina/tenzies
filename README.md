@@ -9,4 +9,4 @@ Created in React using React Hooks.
 
 ### Check out the application
 
-[Tenzies](https://tenzies-game-alinak.netlify.app/)![tenzies](https://user-images.githubusercontent.com/119900960/217888707-faae01a8-8eed-4deb-b517-fe23b4a45b90.jpg)
+![tenzies](https://user-images.githubusercontent.com/119900960/219096554-355682a7-08e6-4875-83b8-638299720990.jpg)
