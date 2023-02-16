@@ -8,5 +8,5 @@
 Created in React using React Hooks.
 
 ### Check out the application
-[tenzies](https://recipes-search-alina-krasowski.netlify.app/)
+[tenzies](https://app.netlify.com/sites/tenzies-game-alinak/overview)
 ![tenzies](https://user-images.githubusercontent.com/119900960/219096554-355682a7-08e6-4875-83b8-638299720990.jpg)
